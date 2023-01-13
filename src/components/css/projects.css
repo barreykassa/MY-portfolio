@@ -1,0 +1,205 @@
+.project-container {
+  padding: 120px;
+}
+.project-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #4c4e57;
+}
+.navList-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 2px solid black; */
+}
+.navList-container-div {
+  color: #4c4e57;
+  font-weight: bold;
+  padding: 20px;
+  transition: 1s;
+}
+.navList-container-div:hover {
+  color: white;
+  background-color: rgb(232, 8, 83);
+  padding: 20px;
+  /* font-weight: 100; */
+}
+/*!---- these for all project List ----- */
+.project-listAll {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  background-color: #f5f5f5;
+  padding: 50px;
+}
+
+.project-listAll div img {
+  width: 300px;
+  height: 300px;
+}
+.x {
+  position: relative;
+}
+
+.h2H3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+.h2H3 h3 {
+  display: none;
+  color: rgb(180, 12, 68);
+  font-size: 1.5rem;
+}
+.h2H3 h2 {
+  display: none;
+  color: #4c4e57;
+}
+.x:hover .h2H3 h3 {
+  display: block;
+}
+.x:hover .h2H3 h2 {
+  display: block;
+}
+.x:hover .imgdiv img {
+  opacity: 0.5;
+}
+
+.h2H3 a {
+  text-decoration: none;
+}
+
+/* these for react only */
+/* --------------------------------------- */
+.react-container {
+  position: relative;
+}
+
+.reactText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.react-container:hover .nodeJsImg {
+  opacity: 0.5;
+}
+.react-container .reactText {
+  display: none;
+}
+.react-container:hover .reactText {
+  display: block;
+  color: #4c4e57;
+}
+.react-container a {
+  text-decoration: none;
+  color: rgb(180, 12, 68);
+  font-size: 1.5rem;
+}
+/* JS*/
+/* ------------------------------ */
+.js-container {
+  position: relative;
+}
+
+.jsText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.js-container:hover .jsImg {
+  opacity: 0.5;
+}
+.js-container .jsText {
+  display: none;
+}
+.js-container:hover .jsText {
+  display: block;
+  color: #4c4e57;
+}
+.js-container a {
+  text-decoration: none;
+  color: rgb(180, 12, 68);
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+/* .js-container {
+  position: relative;
+}
+
+.jsText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.js-container:hover .jsText {
+  opacity: 0.5;
+}
+.js-container:hover .jsImg {
+  opacity: 0.5;
+}
+.js-container .jsText {
+  display: none;
+}
+.js-container:hover .jsText {
+  display: block;
+}
+
+.js-container a {
+  text-decoration: none;
+  color: rgb(180, 12, 68);
+  font-size: 1.3rem;
+} */
+/* nodeJs */
+/* ---------------------------------- */
+.nodeJs-container {
+  position: relative;
+}
+
+.nodeJsText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+.nodeJs-container:hover .nodeJsImg {
+  opacity: 0.5;
+}
+.nodeJs-container .nodeJsText {
+  display: none;
+}
+.nodeJs-container:hover .nodeJsText {
+  display: block;
+  color: #4c4e57;
+}
+.nodeJs-container a {
+  text-decoration: none;
+  color: rgb(180, 12, 68);
+  font-size: 1.5rem;
+}

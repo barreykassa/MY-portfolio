@@ -1,0 +1,295 @@
+.progress-barContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.progress-bar {
+  background-color: rgb(183, 180, 180);
+  border-radius: 10px;
+  width: 600px;
+  height: 2.5em;
+}
+.progress-bar .inner {
+  background-color: #04c2c9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#html {
+  width: 550px;
+  box-sizing: border-box;
+}
+#css {
+  width: 450px;
+}
+.progress-bar .inner div {
+  font-size: 1.5rem;
+}
+/* responsive unitl 600px */
+@media screen and (max-width: 600px) {
+  .progress-barContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+  }
+  .progress-bar {
+    width: 10px;
+  }
+  .progress-bar {
+    width: 300px;
+    height: 25px;
+  }
+  #html {
+    width: 270px;
+  }
+  #css {
+    width: 230px;
+  }
+  #react {
+    width: 250px;
+  }
+  #js {
+    width: 180px;
+  }
+  #nodejs {
+    width: 140px;
+  }
+  #mysql {
+    width: 250px;
+  }
+  #sql {
+    width: 200px;
+  }
+  #rest {
+    width: 200px;
+  }
+}
+/* responsive 600-1200px */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+  .progress-barContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+  }
+  .progress-bar {
+    width: 400px;
+    height: 25px;
+  }
+  #html {
+    width: 350px;
+  }
+  #css {
+    width: 300px;
+  }
+  #react {
+    width: 320px;
+  }
+  #js {
+    width: 220px;
+  }
+  #nodejs {
+    width: 180px;
+  }
+  #mysql {
+    width: 280px;
+  }
+  #sql {
+    width: 240px;
+  }
+  #rest {
+    width: 260px;
+  }
+}
+/* responsove navar size every 100px */
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .progress-bar {
+    width: 500px;
+    height: 25px;
+  }
+  #html {
+    width: 450px;
+  }
+  #css {
+    width: 390px;
+  }
+  #react {
+    width: 410px;
+  }
+  #js {
+    width: 280px;
+  }
+  #nodejs {
+    width: 180px;
+  }
+  #mysql {
+    width: 400px;
+  }
+  #sql {
+    width: 360px;
+  }
+  #rest {
+    width: 380px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .progress-bar {
+    width: 600px;
+    height: 25px;
+  }
+  #html {
+    width: 550px;
+  }
+  #css {
+    width: 480px;
+  }
+  #react {
+    width: 500px;
+  }
+  #js {
+    width: 400px;
+  }
+  #nodejs {
+    width: 240px;
+  }
+  #mysql {
+    width: 500px;
+  }
+  #sql {
+    width: 400px;
+  }
+  #rest {
+    width: 500px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  .progress-bar {
+    width: 600px;
+    height: 25px;
+  }
+  #html {
+    width: 540px;
+  }
+  #css {
+    width: 450px;
+  }
+  #react {
+    width: 500px;
+  }
+  #js {
+    width: 380px;
+  }
+  #nodejs {
+    width: 230px;
+  }
+  #mysql {
+    width: 500px;
+  }
+  #sql {
+    width: 400px;
+  }
+  #rest {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .progress-bar {
+    width: 800px;
+    height: 25px;
+  }
+  #html {
+    width: 720px;
+  }
+  #css {
+    width: 620px;
+  }
+  #react {
+    width: 680px;
+  }
+  #js {
+    width: 580px;
+  }
+  #nodejs {
+    width: 340px;
+  }
+  #mysql {
+    width: 650px;
+  }
+  #sql {
+    width: 500px;
+  }
+  #rest {
+    width: 660px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  .progress-bar {
+    width: 800px;
+    height: 25px;
+  }
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  .progress-bar {
+    width: 900px;
+    height: 25px;
+  }
+  #html {
+    width: 820px;
+  }
+  #css {
+    width: 700px;
+  }
+  #react {
+    width: 730px;
+  }
+  #js {
+    width: 580px;
+  }
+  #nodejs {
+    width: 440px;
+  }
+  #mysql {
+    width: 720px;
+  }
+  #sql {
+    width: 580px;
+  }
+  #rest {
+    width: 700px;
+  }
+}
+/* ---- */
+@media screen and (min-width: 1200px) {
+  .progress-bar {
+    width: 600px;
+    height: 25px;
+  }
+  #html {
+    width: 550px;
+  }
+  #css {
+    width: 480px;
+  }
+  #react {
+    width: 500px;
+  }
+  #js {
+    width: 400px;
+  }
+  #nodejs {
+    width: 240px;
+  }
+  #mysql {
+    width: 500px;
+  }
+  #sql {
+    width: 400px;
+  }
+  #rest {
+    width: 500px;
+  }
+}
